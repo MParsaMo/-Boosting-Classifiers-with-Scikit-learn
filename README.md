@@ -63,9 +63,11 @@ Sample Output:
 Accuracy: 0.9022
 
 🧠 Summary Table
-Project	Dataset	Classifier	Tuning Method	Evaluation
-Iris Classification	Iris (built-in)	GradientBoostingClassifier	Default	Accuracy + Confusion Matrix
-Wine Quality	wine.csv	AdaBoostClassifier	GridSearchCV	Accuracy + Confusion Matrix
+| Project             | Dataset         | Classifier                 | Tuning Method | Evaluation                  |
+| ------------------- | --------------- | -------------------------- | ------------- | --------------------------- |
+| Iris Classification | Iris (built-in) | GradientBoostingClassifier | Default       | Accuracy + Confusion Matrix |
+| Wine Quality        | wine.csv        | AdaBoostClassifier         | GridSearchCV  | Accuracy + Confusion Matrix |
+
 
 📌 Notes
 Both models use boosting (ensemble of weak learners).
